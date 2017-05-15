@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="This is a fidget simulator. It has a bunch of different kinds of spinners that you can have fun with. ">
+
+	<title>Fidget Simulator</title>
+</head>
+<body>
+<div id='background' style='display:none;'>
+	<div id='header'><h1 id='title'>Fidget Simulator</h1></div>
+
+
+
+	<div class='container'>
+		<a class='link' href="https://www.amazon.com/Spinner-Camouflage-Reducer-Relieve-Anxiety/dp/B06XQP2Y3J/ref=sr_1_13?ie=UTF8&qid=1494723482&sr=8-13&keywords=fidget%2Bspinner&th=1" target="_blank"><img class='imglink' src='amazon.png'></a>
+		<div class='TextBox'>
+			<h1 style='font-family:bubble;text-align:center; margin-top:0px; margin-bottom:0px;'>Original</h5>
+			<hr style='border:1px solid darkblue;margin-top:5px;margin-bottom:5px;'>
+			<p>This spinner is fun, cheap, and it's the original. Why wouldn't you want to buy it?</p>
+		</div>
+		<canvas id='canvas1' width='350px' height='350px'></canvas>
+		<button style='width:100px;' id='spinner1Button' class='btn btn-primary' onclick='flick1()'>Flick</button>
+		<button style='width:75px;' id='leftBtn' class='btn btn-primary' onclick='left1()'>&larr;</button>
+		<button style='width:75px;' id='rightBtn' class='btn btn-primary' onclick='right1()'>&rarr;</button>
+	</div>
+
+
+
+	<div class='container'>
+		<a class='link' href="https://www.amazon.com/Infinity-Fidget-Spinner-Pro-Gold/dp/B06WVN6Y5W/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1494636118&sr=1-1&keywords=executive+spinner" target="_blank"><img class='imglink' src='amazon.png'></a>
+		<div class='TextBox'>
+			<h1 style='font-family:bubble;text-align:center; margin-top:0px; margin-bottom:0px;'>Infinity</h5>
+			<hr style='border:1px solid darkblue;margin-top:5px;margin-bottom:5px;'>
+			<p>This spinner is made of metal so it spinners for over three minutes. It has a very nice look to it.</p>
+		</div>
+		<canvas id='canvas2' width='350px' height='350px'></canvas>
+		<button style='width:100px;' id='spinner2Button' class='btn btn-primary' onclick='flick2()'>Flick</button>
+		<button style='width:75px;' id='leftBtn' class='btn btn-primary' onclick='left2()'>&larr;</button>
+		<button style='width:75px;' id='rightBtn' class='btn btn-primary' onclick='right2()'>&rarr;</button>
+	</div>
+
+
+
+	<div class='container'>
+		<a class='link' href="https://www.amazon.com/Spinner-Reducer-Premium-Quality-Guarantee/dp/B06XPGBM7L/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1494723583&sr=1-1&keywords=big+baller+spinner" target="_blank"><img class='imglink' src='amazon.png'></a>
+		<div class='TextBox'>
+			<h1 style='font-family:bubble;text-align:center; margin-top:0px; margin-bottom:0px;'>Horus</h5>
+			<hr style='border:1px solid darkblue;margin-top:5px;margin-bottom:5px;'>
+			<p>This spinner is called the horus, but reffered to as the Big Baller Spinner. It looks great and has a cool effect when spinning.</p>
+		</div>
+		<canvas id='canvas3' width='350px' height='350px'></canvas>
+		<button style='width:100px;' id='spinner3Button' class='btn btn-primary' onclick='flick3()'>Flick</button>
+		<button style='width:75px;' id='leftBtn' class='btn btn-primary' onclick='left3()'>&larr;</button>
+		<button style='width:75px;' id='rightBtn' class='btn btn-primary' onclick='right3()'>&rarr;</button>
+	</div>
+
+
+
+	<div class='container'>
+		<a class='link' href="https://www.amazon.com/MecArmy-Titanium-Spinner-Relieves-sandblasted/dp/B06XSY5551/ref=sr_1_3?ie=UTF8&qid=1494723453&sr=8-3&keywords=mecarmy+spinner" target="_blank"><img class='imglink' src='amazon.png'></a>
+		<div class='TextBox'>
+			<h1 style='font-family:bubble;text-align:center; margin-top:0px; margin-bottom:0px;'>Mecarmy</h5>
+			<hr style='border:1px solid darkblue;margin-top:5px;margin-bottom:5px;'>
+			<p>This spinner looks amazing. It is very original and it is made of metal so it spins for a long time.</p>
+		</div>
+		<canvas id='canvas4' width='350px' height='350px'></canvas>
+		<button style='width:100px;' id='spinner4Button' class='btn btn-primary' onclick='flick4()'>Flick</button>
+		<button style='width:75px;' id='leftBtn' class='btn btn-primary' onclick='left4()'>&larr;</button>
+		<button style='width:75px;' id='rightBtn' class='btn btn-primary' onclick='right4()'>&rarr;</button>
+	</div>
+
+
+
+	<div class='container'>
+		<a class='link' href="https://www.amazon.com/WeFidgets-Original-Premium-Spinner-Designed/dp/B06XFBPB74/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1494723530&sr=1-1&keywords=secret+service+spinner" target="_blank"><img class='imglink' src='amazon.png'></a>
+		<div class='TextBox'>
+			<h1 style='font-family:bubble;text-align:center; margin-top:0px; margin-bottom:0px;'>Secret Service</h5>
+			<hr style='border:1px solid darkblue;margin-top:5px;margin-bottom:5px;'>
+			<p>This is the most portable spinner. It is great because you can put it in your pocket and keep it there all day and it wouldn't bother you.</p>
+		</div>
+		<canvas id='canvas5' width='350px' height='350px'></canvas>
+		<button style='width:100px;' id='spinner5Button' class='btn btn-primary' onclick='flick5()'>Flick</button>
+		<button style='width:75px;' id='leftBtn1' class='btn btn-primary' onclick='left5()'>&larr;</button>
+		<button style='width:75px;' id='rightBtn1' class='btn btn-primary' onclick='right5()'>&rarr;</button>
+	</div>
+	<div id='bottom'>
+		<p id='copyright'>LazySquad © Carlos Ortega</p>
+		<a class='link' href="https://www.facebook.com/Fidget-Simulator-222357494922472/" target="_blank"><img src='Icon.png' id='face'></a>
+	</div>
+
+
+
+
+</div>
+<script src='script.js'></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href='style.css' rel='stylesheet' type='text/css'>
+
+</body>
+</html>
