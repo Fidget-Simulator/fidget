@@ -1,0 +1,149 @@
+@font-face {
+	font-family:bubble;
+	src:url(bubble.ttf);
+}
+body, html {margin:0;padding:0;border:0;position:;top:0;bottom:0;left:0;right:0;width:100%;height:100%;}
+#background {background: url(background.jpg) no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;height:100%;overflow:auto;}
+#header {
+	margin-left:12.5%;
+	margin-top:3%;
+	height:150px;
+	width:75%;
+	background-color:#2B59A5;
+	border:2px solid darkblue;
+	border-radius:25px;
+}
+#title {
+	font-family:bubble;
+	font-size:7vw;
+	text-align:center;
+	margin-top:1.5%;
+}
+.container {
+	position:relative;
+	width:400px;
+	height:400px;
+}
+#canvas1 {
+	background-color:lightblue;
+	border-radius:50px;
+	overflow:hidden;
+	display:block;
+	margin:auto;
+	margin-top:50px;
+}
+#spinner1Button {
+	position:absolute;
+	margin-left:135.5px;
+	margin-top:-50px;
+}
+#canvas2 {
+	background-color:lightblue;
+	border-radius:50px;
+	overflow:hidden;
+	display:block;
+	margin:auto;
+	margin-top:50px;
+}
+#spinner2Button {
+	position:absolute;
+	margin-left:135.5px;
+	margin-top:-50px;
+}
+#canvas3 {
+	background-color:lightblue;
+	border-radius:50px;
+	overflow:hidden;
+	display:block;
+	margin:auto;
+	margin-top:50px;
+
+}
+#spinner3Button {
+	position:absolute;
+	margin-left:135.5px;
+	margin-top:-50px;
+}
+#canvas4 {
+	background-color:lightblue;
+	border-radius:50px;
+	overflow:hidden;
+	display:block;
+	margin:auto;
+	margin-top:50px;
+}
+#spinner4Button {
+	position:absolute;
+	margin-left:135.5px;
+	margin-top:-50px;
+}
+#canvas5 {
+	background-color:lightblue;
+	border-radius:50px;
+	overflow:hidden;
+	display:block;
+	margin:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+#spinner5Button {
+	position:absolute;
+	margin-left:135.5px;
+	margin-top:-100px;
+}
+.TextBox {
+	position:absolute;
+	background-color:lightblue;
+	border:1px solid darkblue;
+	border-radius:20px;
+	width:200px;
+	height:200px;
+	margin-top:32%;
+	margin-left:95%;
+}
+.imglink {
+	position:absolute;
+	margin-top:50%;
+	margin-left:-37%;
+}
+#leftBtn {
+	position:absolute;
+	margin-left:50px;
+	margin-top:-50px;
+}
+#rightBtn {
+	position:absolute;
+	margin-left:247px;
+	margin-top:-50px;
+}
+#leftBtn1 {
+	position:absolute;
+	margin-left:50px;
+	margin-top:-100px;
+}
+#rightBtn1 {
+	position:absolute;
+	margin-left:247px;
+	margin-top:-100px;
+}
+#bottom {
+	position:relative;
+	background-color:#2B59A5;
+	height:50px;
+	width:100%;
+	margin-top:20px;
+}
+#copyright {
+	color:white;
+	padding-left:5px;
+	padding-top:5px;
+	position:absolute;
+}
+#face {
+	width:40px;
+	height:40px;
+	position:absolute;
+	right:5px;
+	top:5px;
+	border:1px solid white;
+}
